@@ -10,20 +10,21 @@ int main(){
     
     const int NUMERO_SECRETO = 42;
 
-    cout << "O número secreto é " << NUMERO_SECRETO<< endl;
+    //cout << "O número secreto é " << NUMERO_SECRETO<< endl;
 
     int chute = 0;
-    bool acertou = chute == NUMERO_SECRETO;
-    bool maior = chute > NUMERO_SECRETO;
+    bool acertou;
+	bool nao_acertou = true;
+    bool maior;
 
-    while(!acertou){
+    while(nao_acertou){
         
         cout << "Qual o seu chute? ";
         cin >> chute; 
         cout << endl << "O valor do seu chute é " << chute << endl;
 
         maior = chute > NUMERO_SECRETO;
-        acertou = chute == NUMERO_SECRETO;
+        nao_acertou = chute != NUMERO_SECRETO;
 
         if (maior){
             cout << "O seu chute é maior que o número secreto" << endl;
