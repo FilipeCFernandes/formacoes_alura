@@ -16,22 +16,53 @@ int main(){
     bool acertou;
 	bool nao_acertou = true;
     bool maior;
+	bool fim_de_jogo = false;
+	int tentativas = 0;
 
-    while(nao_acertou){
+	int escolha;
+	int tentativas_maximas = 0;
+
+	double pontuacao = 1000.0;
+
+	cout.precision(2);
+	cout << fixed; 
+
+	cout << endl << "Qual o nível de dificuldade desejada? (1) Fácil, (2) Médio ou (3) difícil?" << endl;
+	cin >> escolha; 
+	cout << endl;
+		
+	if( escolha == 1){
+		tentativas_maximas = 1000;	
+	}else if(escolha == 2){
+		tentativas_maximas = 10;
+	}else if(escolha == 3){
+		tentativas_maximas = 5;
+	}else{
+		cerr << "Valor inserido não válido   "; 
+		return 0;	
+	}
+
+    while(!fim_de_jogo){
         
+		tentativas++;
         cout << "Qual o seu chute? ";
         cin >> chute; 
+		cout << endl << "Tentaiva" << tentativas << endl;
         cout << endl << "O valor do seu chute é " << chute << endl;
 
         maior = chute > NUMERO_SECRETO;
         nao_acertou = chute != NUMERO_SECRETO;
 
+		pontuacao = pontuacao - abs(chute-NUMERO_SECRETO)/2.0;
         if (maior){
             cout << "O seu chute é maior que o número secreto" << endl;
         }else {
             cout << "O seu chute é menor que o número secreto" << endl;
         }
+		fim_de_jogo = !nao_acertou || tentativas == tentativas_maximas;	
     }
 
-    cout << " Você acertou o número secreto! ";
+    cout << " Você acertou o número secreto em " << tentativas << " tentativas" << endl;
+	cout << "Sua pontuação foi " << pontuacao << endl;
+	cout << "Fim de Jogo";
 }
