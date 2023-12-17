@@ -1,4 +1,6 @@
 #include<iostream>
+#include<cstdlib>
+#include<ctime>
 
 using namespace std;
 
@@ -8,7 +10,8 @@ int main(){
     cout << "*************************************" << endl;
     cout << endl;
     
-    const int NUMERO_SECRETO = 42;
+	srand(time(NULL));
+    const int NUMERO_SECRETO = rand() % 100;
 
     //cout << "O número secreto é " << NUMERO_SECRETO<< endl;
 
