@@ -12,6 +12,7 @@ int main(){
     
 	srand(time(NULL));
     const int NUMERO_SECRETO = rand() % 100;
+   // const int NUMERO_SECRETO = 42;
 
     //cout << "O número secreto é " << NUMERO_SECRETO<< endl;
 
@@ -36,6 +37,7 @@ int main(){
 		
 	if( escolha == 1){
 		tentativas_maximas = 15;	
+	//	tentativas_maximas = 1000;	
 	}else if(escolha == 2){
 		tentativas_maximas = 10;
 	}else if(escolha == 3){
@@ -71,5 +73,7 @@ int main(){
     	cout << " Você acertou o número secreto em " << tentativas << " tentativas" << endl;
 		cout << "Sua pontuação foi " << pontuacao << endl;
 	}
+    //cout << " Você acertou o número secreto em " << tentativas << " tentativas" << endl;
+	//cout << "Sua pontuação foi " << pontuacao << endl;
 	cout << "Fim de Jogo";
 }
