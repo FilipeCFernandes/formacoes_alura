@@ -1,0 +1,14 @@
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/bin/Debug/net7.0/C#_Primeira_Aplicacao
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/bin/Debug/net7.0/C#_Primeira_Aplicacao.deps.json
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/bin/Debug/net7.0/C#_Primeira_Aplicacao.runtimeconfig.json
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/bin/Debug/net7.0/C#_Primeira_Aplicacao.dll
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/bin/Debug/net7.0/C#_Primeira_Aplicacao.pdb
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.AssemblyInfoInputs.cache
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.AssemblyInfo.cs
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.csproj.CoreCompileInputs.cache
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.dll
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/refint/C#_Primeira_Aplicacao.dll
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.pdb
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/C#_Primeira_Aplicacao.genruntimeconfig.cache
+/Users/fernandes/Documents/Estudo/Alura/formacoes_alura/Aprendendo_a_programar_C#_OO/C#_Primeira_Aplicacao/obj/Debug/net7.0/ref/C#_Primeira_Aplicacao.dll

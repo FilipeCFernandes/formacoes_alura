@@ -1,12 +1,17 @@
 package br.com.alura.screenmatch.modelos;
 
 public class Titulo {
+	
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacao;
     private int duracaoEmMinutos;
+
+	public boolean getIncluiNoPlano() {
+		return incluidoNoPlano;
+	}
 
     public int getTotalDeAvaliacao() {
         return totalDeAvaliacao;
